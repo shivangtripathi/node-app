@@ -1,0 +1,47 @@
+
+form{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h2{
+    margin-left: 30% !important;
+    margin-right: 30% !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+
+/* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+}
+
+select {
+    word-wrap: normal;
+    width: 70%;
+}
+
+form {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
